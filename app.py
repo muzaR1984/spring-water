@@ -4,7 +4,7 @@ import folium
 from streamlit_folium import st_folium
 
 # 1. NASTAVITVE STRANI
-st.set_page_config(page_title="Izviri pitne vode v Sloveniji", layout="wide")
+st.set_page_config(page_title="Izviri pitne vode", layout="wide")
 
 st.title("💧 Zemljevid naravnih izvirov pitne vode")
 st.markdown("Interaktivni zemljevid z informacijami o dostopnosti in varnosti vode.")
